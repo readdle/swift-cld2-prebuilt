@@ -1,0 +1,5 @@
+module RDCld2 [system] {
+    header "cld2.h"
+    export *
+    link "cld2"
+}
