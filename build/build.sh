@@ -12,7 +12,7 @@ pushd "$current_dir/jni"
 	$ANDROID_NDK/ndk-build
 popd
 
-cp -r libs ../libs
+rsync -av libs/ ../libs
 
 rm -rf swift-android-cld2
 rm -rf obj
